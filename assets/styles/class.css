@@ -25,24 +25,21 @@
     position: relative;
 }
 .MainImageWoman{
-    content: url('/assets/images/illustration-woman-online-desktop.svg');
-    /* content: url('file:///C:/Users/GEG_F/Desktop/Old%20laptop/Programacion/JS/faq-accordion-card-main/assets/images/illustration-woman-online-desktop.svg'); */
+    content: url('../../assets/images/illustration-woman-online-desktop.svg');
     left: -5rem;
     top: 6rem;
     z-index: 2;
 }
 
 .BgPattern{
-    content: url('/assets/images/bg-pattern-desktop.svg');
-    /* content: url('file:///C:/Users/GEG_F/Desktop/Old%20laptop/Programacion/JS/faq-accordion-card-main/assets/images/bg-pattern-desktop.svg'); */
+    content: url('../../assets/images/bg-pattern-desktop.svg');
     left: -36rem;
     top: -17rem;
     z-index: 1;
 }  
 
 .LitleBox{
-    content: url('/assets/images/illustration-box-desktop.svg');
-    /* content: url('file:///C:/Users/GEG_F/Desktop/Old%20laptop/Programacion/JS/faq-accordion-card-main/assets/images/illustration-box-desktop.svg'); */
+    content: url('../../assets/images/illustration-box-desktop.svg');
     top: 13rem;
     left: -6rem;
     z-index: 3;
@@ -59,8 +56,7 @@
     float: right;
     height: 9px;
     padding-right: 6px;
-    /* content: url('/assets/images/icon-arrow-down.svg'); */
-    content: url('file:///C:/Users/GEG_F/Desktop/Old%20laptop/Programacion/JS/faq-accordion-card-main/My%20desing/assets/images/icon-arrow-down.svg');
+    content: url('/../../assets/images/icon-arrow-down.svg');
 }
 
 .rotated{
@@ -88,13 +84,13 @@
     .MainImageWoman{
         left: -9rem;
         top: -11rem;
-        content: url('file:///C:/Users/GEG_F/Desktop/Old%20laptop/Programacion/JS/faq-accordion-card-main/My%20desing/assets/images/illustration-woman-online-mobile.svg');
+        content: url('../../assets/images/illustration-woman-online-mobile.svg');
     }
     
     .BgPattern{
         left: -7rem;
         top: -4rem;
-        content: url('file:///C:/Users/GEG_F/Desktop/Old%20laptop/Programacion/JS/faq-accordion-card-main/My%20desing/assets/images/bg-pattern-mobile.svg');
+        content: url('../../assets/images/bg-pattern-mobile.svg');
 
     }  
     
