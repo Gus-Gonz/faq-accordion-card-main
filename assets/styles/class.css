@@ -56,7 +56,7 @@
     float: right;
     height: 9px;
     padding-right: 6px;
-    content: url('/../../assets/images/icon-arrow-down.svg');
+    content: url('../../assets/images/icon-arrow-down.svg');
 }
 
 .rotated{
