@@ -13,8 +13,10 @@
     width: 60rem;
     min-height: 33rem;
     display: grid;
-    grid-template-columns: 50% 45%;
+    grid-template-columns: 50% 2% 45%;
     box-shadow:0px 15px 10px hsla(228, 45%, 44%, 0.527);
+
+    overflow: hidden;
     
 }
 .faqBox img {
@@ -26,21 +28,25 @@
 }
 .MainImageWoman{
     content: url('../../assets/images/illustration-woman-online-desktop.svg');
-    left: -5rem;
+    left: -4rem;
     top: 6rem;
     z-index: 2;
 }
 
 .BgPattern{
     content: url('../../assets/images/bg-pattern-desktop.svg');
-    left: -36rem;
+    left: -35rem;
     top: -17rem;
     z-index: 1;
 }  
 
+.LitleBoxWrapper{
+    position: absolute;
+}
+
 .LitleBox{
     content: url('../../assets/images/illustration-box-desktop.svg');
-    top: 13rem;
+    top: 14.5rem;
     left: -6rem;
     z-index: 3;
     
@@ -69,21 +75,31 @@
     display: none;
 }
 
+.attribution{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+
+}
+
+
 @media only screen and (max-width:900px) {
 
     .faqBox{
-        grid-template-rows: 20% 80%;
+        grid-template-rows: 20% 0% 80%;
         grid-template-columns: none;
         width: auto;
         margin: 8rem 1.5rem;
         min-height: 38rem;
+        overflow: visible;
     }
     .faqBox :first-child {
         margin: auto;
     }
     .MainImageWoman{
         left: -9rem;
-        top: -11rem;
+        top: -10.5rem;
         content: url('../../assets/images/illustration-woman-online-mobile.svg');
     }
     

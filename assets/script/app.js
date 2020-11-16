@@ -1,16 +1,14 @@
 const liElement = document.querySelectorAll('li');
 
-let currentElementDisplayed ;
+let currentElementDisplayed;
 
-function setDefaultClass () {
-    liElement.forEach(element =>{
-        element.querySelector('h4').className = '';
-        element.querySelector('p').className = 'hiden';
-        element.querySelector('span').className ='arrow-image';
-    });
+function setDefaultStyle () {
+    currentElementDisplayed.querySelector('h4').className = '';
+    currentElementDisplayed.querySelector('p').className = 'hiden';
+    currentElementDisplayed.querySelector('span').className ='arrow-image';
 }
 
-function setNewClass(target) {
+function setDisplayedClass(target) {
     target.querySelector('h4').classList.toggle('bold-font');
     target.querySelector('p').classList.toggle('hiden');
     target.querySelector('span').classList.toggle('rotated');
@@ -20,12 +18,16 @@ function setNewClass(target) {
 liElement.forEach(element => {
     element.addEventListener('click', (event) => {
         if (currentElementDisplayed == event.currentTarget){
-            setNewClass(event.currentTarget)
-        }else {
-            setDefaultClass();
-            setNewClass(event.currentTarget)
+            setDisplayedClass(event.currentTarget);
+        }else{
+            try {
+                setDefaultStyle()
+                setDisplayedClass(event.currentTarget)
+            }catch {
+                setDisplayedClass(event.currentTarget);
+            }
         }
-        currentElementDisplayed = event.currentTarget
+        currentElementDisplayed = event.currentTarget;
     });
 }); 
 
