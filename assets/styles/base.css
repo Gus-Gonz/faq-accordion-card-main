@@ -5,7 +5,7 @@ html{
 body {
     margin: 0;
     background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
-    color: hsl(238, 29%, 16%);
+    color: #5b5b64;
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
 }
