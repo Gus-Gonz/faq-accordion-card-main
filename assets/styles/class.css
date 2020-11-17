@@ -1,10 +1,3 @@
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
-}
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
 
 .faqBox{
     background-color: white;
@@ -71,15 +64,15 @@
     padding-left: 6px;
 }
 
-.hiden {
+.hidden {
     display: none;
 }
 
 .attribution{
     font-size: 15px;
     color: white;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
+    padding-top: 1rem;
+    text-align: center;
 
 }
 
